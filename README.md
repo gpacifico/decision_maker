@@ -11,3 +11,6 @@ whether or not he or she should do the action in question.
 - HTML
 - CSS
 - Bootstrap
+
+### Disclaimer:
+Use this app wisely. The Decision Maker and its creator are not responsible for your actions or the consequences of your actions.
