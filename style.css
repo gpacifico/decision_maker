@@ -2,6 +2,6 @@
     text-align: center;
 }
 
-.answer {
+.answer, .not_exist {
     display: none;
 }
