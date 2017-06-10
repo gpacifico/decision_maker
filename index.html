@@ -2,55 +2,72 @@
     <head>
         <title>The Decision-Maker</title>
         <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='style.css'>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous'></script>
+        <script src='script.js'></script>
     </head>
     <body>
-        <div class="container header">
-            <div class="col-sm-12">
-                <div class="page-header">
+        <div class='container header'>
+            <div class='col-sm-12'>
+                <div class='page-header'>
                     <h1>The Decision-Maker <br>
                         <small>Like a Magic 8-Ball, except not</small></h1>
                 </div>
             </div>
         </div>
-        <div class="col-md-offset-2 col-md-10">
-            <div class="questions q1">
-                <h2 class="question">Will doing this cause imminent death, either yours or someone else's?</h2>
-                <button class="btn btn-success col-md-offset-2 col-md-2 yes" id="yolo1">Most Likely</button>
-                <h2 id="yolo" class="answer">Probably not worth it. YOLO.</h2>
+        <div class='col-md-offset-2 col-md-10'>
+            <div class='questions q1'>
+                <h2 class='question'>Will doing this cause imminent death, either yours or someone else's?</h2>
+                <button class='btn btn-success col-md-offset-2 col-md-2 yes' id='yolo1'>Most Likely</button>
+                <h2 id='yolo2' class='answer'>Probably not worth it. YOLO.</h2>
             </div>
         </div>
-        <div class="col-md-offset-2 col-md-10">
-            <div class="questions q2">
+        <div class='col-md-offset-2 col-md-10'>
+            <div class='questions q2'>
                 <h2>Will you or anyone else in your immediate vicinity end up in the hospital?</h2>
-                <button class="btn btn-success col-md-offset-2 col-md-2 yes" id="yolo2">Most Likely</button>
-                <h2 class="answer">Broken bones take weeks to heal. Probably not worth it.</h2>
+                <button class='btn btn-success col-md-offset-2 col-md-2 yes' id='health1'>Most Likely</button>
+                <h2 id='health2' class='answer'>Broken bones take weeks to heal. Probably not worth it.</h2>
             </div>
         </div>
-        <div class="col-md-offset-2 col-md-10">
-            <div class="questions q3">
+        <div class='col-md-offset-2 col-md-10'>
+            <div class='questions q3'>
                 <h2>Will this action cause you to lose at least a year's salary?</h2>
-                <button class="btn btn-success col-md-offset4 col-md-2 yes">Most Likely</button>
-                <h2 class="answer">Eh, it's only money. You can't take it with you.</h2>
+                <button class='btn btn-success col-md-offset4 col-md-2 yes' id='money1' >Most Likely</button>
+                <h2 id='money2' class='answer'>Eh, it's only money. You can't take it with you.</h2>
             </div>
         </div>
-        <div class="col-md-offset-2 col-md-10">
-            <div class="questions q3">
+        <div class='col-md-offset-2 col-md-10'>
+            <div class='questions q4'>
                 <h2>Will any portion of the surrounding area lose electricity?</h2>
-                <button class="btn btn-success col-md-offset4 col-md-2 yes">Most Likely</button>
-                <h2 class="answer">Not cool during winter, man.</h2>
+                <button class='btn btn-success col-md-offset4 col-md-2 yes' id='power1'>Most Likely</button>
+                <h2 id='power2' class='answer'>Not cool during winter, man.</h2>
             </div>
         </div>
-        <div class="col-md-offset-2 col-md-10">
-            <div class="final_answer">
-                <h2>Are you ready for the Final Verdict?</h2>
-                <button class="btn btn-success col-md-offset4 col-md-2 yes">Show me my choice!</button>
-                <h2 class="answer">It's your life. Do what you want. I'm just an app, not the police.</h2>
+        <div class='col-md-offset-2 col-md-10'>
+            <div class='questions q5'>
+                <h2>Is this against the law in the state and/or country in which you'll be doing this action?</h2>
+                <button class='btn btn-success col-md-offset4 col-md-2 yes' id='jail1'>Most Likely</button>
+                <h2 id='jail2' class='answer'>Almost no one looks good in prison clothes</h2>
             </div>
+        </div>
+        <div class='col-md-offset-2 col-md-10'>
+            <div class='questions q6'>
+                <h2>If your mother and father find out about this, would they be disappointed?</h2>
+                <button class='btn btn-success col-md-offset4 col-md-2 yes' id='parents1'>Most Likely</button>
+                <h2 id='parents2' class='answer'>You're never too old for a guilt trip</h2>
+            </div>
+        </div>
+        <div class='col-md-offset-2 col-md-10'>
+            <div class='questions final_answer'>
+                <h2>Are you ready for the Final Verdict?</h2>
+                <button class='btn btn-success col-md-offset4 col-md-2 yes' id='final_tally1'>Show me my choice!</button>
+            </div>
+            <h1 id='final_tally_yes' class='answer'>You should probably go for it. But hey, it's your life.
+                Do what you want. I'm just an app, not the police.</h1>
+            <h1 id='final_tally_no' class='answer'>You should probably not do it. But hey, it's your life.
+                Do what you want. I'm just an app, not the police.</h1>
         </div>
     </body>
 </html>
