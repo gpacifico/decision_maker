@@ -38,3 +38,9 @@ img {
 #final_tally1 {
     margin-bottom: 5em;
 }
+
+.disclaimer {
+    background-color: rgba(255, 128, 0, 0.8);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
