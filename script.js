@@ -117,6 +117,7 @@ function question11() {
 function choice() {
     $('#final_tally1').click(function () {
         $('.questions').addClass('not_exist');
+        $('.disclaimer').addClass('disclaimer1');
         if (points < 20) {
             $('#final_tally_yes').removeClass('answer');
         }
