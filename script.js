@@ -119,10 +119,10 @@ function choice() {
         $('.questions').addClass('not_exist');
         $('.disclaimer').addClass('disclaimer1');
         if (points < 20) {
-            $('#final_tally_yes').removeClass('answer');
+            $('#final_tally_yes').removeClass('answer').append('<br><img src="images/decision_yes.png">');
         }
         else if (points >= 20) {
-            $('#final_tally_no').removeClass('answer');
+            $('#final_tally_no').removeClass('answer').append('<br><img src="images/decision_no.png">') ;
         }
     });
 }
