@@ -2,15 +2,20 @@ var points = 0;
 
 $(document).ready(function () {
     question1();
+    question1b();
     question2();
     question3();
+    question3b();
     question4();
     question5();
     question6();
+    question6b();
     question7();
+    question7b();
     question8();
     question9();
     question10();
+    question10b();
     question11();
     choice();
 });
@@ -20,6 +25,15 @@ function question1() {
         $(this).addClass('not_exist');
         $('#yolo2').removeClass('answer');
         points += 20;
+        console.log('points2', points);
+    });
+}
+
+function question1b() {
+    $('#yolo1b').click(function () {
+        $(this).addClass('not_exist');
+        $('#yolo2b').removeClass('answer');
+        points -= 18;
         console.log('points2', points);
     });
 }
@@ -38,6 +52,15 @@ function question3() {
         $(this).addClass('not_exist');
         $('#money2').removeClass('answer');
         points += 1;
+        console.log('points2', points);
+    });
+}
+
+function question3b() {
+    $('#money1b').click(function () {
+        $(this).addClass('not_exist');
+        $('#money2b').removeClass('answer');
+        points -= 3;
         console.log('points2', points);
     });
 }
@@ -69,11 +92,29 @@ function question6() {
     });
 }
 
+function question6b() {
+    $('#parents1b').click(function () {
+        $(this).addClass('not_exist');
+        $('#parents2b').removeClass('answer');
+        points -= 2;
+        console.log('points2', points);
+    });
+}
+
 function question7() {
     $('#friends1').click(function () {
         $(this).addClass('not_exist');
         $('#friends2').removeClass('answer');
         points += 3;
+        console.log('points2', points);
+    });
+}
+
+function question7b() {
+    $('#friends1b').click(function () {
+        $(this).addClass('not_exist');
+        $('#friends2b').removeClass('answer');
+        points -= 2;
         console.log('points2', points);
     });
 }
@@ -101,6 +142,15 @@ function question10() {
         $(this).addClass('not_exist');
         $('#job2').removeClass('answer');
         points += 3;
+        console.log('points2', points);
+    });
+}
+
+function question10b() {
+    $('#job1b').click(function () {
+        $(this).addClass('not_exist');
+        $('#job2b').removeClass('answer');
+        points -= 5;
         console.log('points2', points);
     });
 }
