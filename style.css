@@ -25,6 +25,13 @@ div .btn {
 
 h2:last-child {
     color: rgba(255, 128, 0, 0.9);
+    margin-left: 17%;
+    margin-right: 15%;
+}
+
+div.instructions h2 {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 img {
@@ -34,9 +41,9 @@ img {
 }
 
 h2 img {
-    width: 3em;
+    width: 3.5em;
     float: left;
-    margin: -2% 0 12% 0;
+    margin: -3% 0 0 0;
 }
 
 #final_tally1 {
@@ -69,3 +76,12 @@ body {
     bottom: 0;
     left: 0;
 }
+
+/*@media screen and (max-width: 550px) {*/
+    /*h2:last-child {*/
+        /*margin-left: 17%;*/
+    /*}*/
+    /*div.instructions h2 {*/
+        /*margin-left: 0;*/
+    /*}*/
+/*}*/

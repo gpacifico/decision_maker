@@ -24,7 +24,7 @@ function question1() {
     $('#yolo1').click(function () {
         $(this).addClass('not_exist');
         $('#yolo2').removeClass('answer');
-        points += 20;
+        points += 25;
         console.log('points2', points);
     });
 }
@@ -42,7 +42,7 @@ function question2() {
     $('#health1').click(function () {
         $(this).addClass('not_exist');
         $('#health2').removeClass('answer');
-        points += 3;
+        points += 5;
         console.log('points2', points);
     });
 }
@@ -51,7 +51,7 @@ function question3() {
     $('#money1').click(function () {
         $(this).addClass('not_exist');
         $('#money2').removeClass('answer');
-        points += 1;
+        points += 3;
         console.log('points2', points);
     });
 }
@@ -78,7 +78,7 @@ function question5() {
     $('#jail1').click(function () {
         $(this).addClass('not_exist');
         $('#jail2').removeClass('answer');
-        points += 4;
+        points += 5;
         console.log('points2', points);
     });
 }
@@ -87,7 +87,7 @@ function question6() {
     $('#parents1').click(function () {
         $(this).addClass('not_exist');
         $('#parents2').removeClass('answer');
-        points += 1;
+        points += 2;
         console.log('points2', points);
     });
 }
@@ -123,7 +123,7 @@ function question8() {
     $('#earth1').click(function () {
         $(this).addClass('not_exist');
         $('#earth2').removeClass('answer');
-        points += 4;
+        points += 6;
         console.log('points2', points);
     });
 }
@@ -141,7 +141,7 @@ function question10() {
     $('#job1').click(function () {
         $(this).addClass('not_exist');
         $('#job2').removeClass('answer');
-        points += 3;
+        points += 5;
         console.log('points2', points);
     });
 }
@@ -150,7 +150,7 @@ function question10b() {
     $('#job1b').click(function () {
         $(this).addClass('not_exist');
         $('#job2b').removeClass('answer');
-        points -= 5;
+        points -= 6;
         console.log('points2', points);
     });
 }
@@ -168,10 +168,10 @@ function choice() {
     $('#final_tally1').click(function () {
         $('.questions').addClass('not_exist');
         $('.disclaimer').addClass('disclaimer1');
-        if (points < 20) {
+        if (points < 25) {
             $('#final_tally_yes').removeClass('answer').append('<br><img src="images/decision_yes.png">');
         }
-        else if (points >= 20) {
+        else if (points >= 25) {
             $('#final_tally_no').removeClass('answer').append('<br><img src="images/decision_no.png">') ;
         }
     });
