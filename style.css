@@ -5,9 +5,9 @@ body {
     background-color: rgba(102, 0, 204, 0.8);
 }
 
-body {
-    font-size: 0;
-}
+/*body {*/
+    /*font-size: 0;*/
+/*}*/
 
 body > * {
     font-size: 1rem;
@@ -95,11 +95,19 @@ button.btn {
     background-color: rgba(255, 128, 0, 0.8);
 }
 
+/*body.decision_made {*/
+    /*font-size: 0;*/
+    /*background-color: rgba(102, 0, 204, 0.8);*/
+/*}*/
+
 /*@media screen and (max-width: 550px) {*/
-    /*h2:last-child {*/
-        /*margin-left: 17%;*/
+    /*body {*/
+        /*font-size: 0;*/
+        /*background: url("images/question_marks.png") repeat center;*/
+        /*background-size: 80%;*/
+        /*background-color: rgba(102, 0, 204, 0.8);*/
     /*}*/
-    /*div.instructions h2 {*/
-        /*margin-left: 0;*/
+    /*body > * {*/
+        /*font-size: 1rem;*/
     /*}*/
 /*}*/
