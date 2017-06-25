@@ -1,7 +1,9 @@
 body {
     font-size: 0;
-    background: url("images/question_marks.png") repeat center;
-    background-size: 60%;
+    background: url("images/question_mark2.png") repeat center;
+    background-size: 75%;
+    /*background: url("images/question_mark_dots.png") repeat center;*/
+    /*background-size: 80%;*/
     background-color: rgba(102, 0, 204, 0.8);
 }
 
