@@ -2,22 +2,12 @@ body {
     font-size: 0;
     background: url("images/question_mark2.png") repeat center;
     background-size: 75%;
-    /*background: url("images/question_mark_dots.png") repeat center;*/
-    /*background-size: 80%;*/
     background-color: rgba(102, 0, 204, 0.8);
 }
-
-/*body {*/
-    /*font-size: 0;*/
-/*}*/
 
 body > * {
     font-size: 1rem;
 }
-
-/*h2 {*/
-    /*color: white;*/
-/*}*/
 
 .header {
     text-align: center;
@@ -59,12 +49,11 @@ h2 img {
 }
 
 .disclaimer {
-    background-color: rgba(255, 128, 0, 0.8);
     margin-bottom: -15%;
 }
 
 h1 small, h2 {
-    color: white;
+    color: #fff;
 }
 
 h1 {
@@ -93,23 +82,6 @@ body {
     left: 0;
 }
 
-button.btn {
+button.btn, .disclaimer {
     background-color: rgba(255, 128, 0, 0.8);
 }
-
-/*body.decision_made {*/
-    /*font-size: 0;*/
-    /*background-color: rgba(102, 0, 204, 0.8);*/
-/*}*/
-
-/*@media screen and (max-width: 550px) {*/
-    /*body {*/
-        /*font-size: 0;*/
-        /*background: url("images/question_marks.png") repeat center;*/
-        /*background-size: 80%;*/
-        /*background-color: rgba(102, 0, 204, 0.8);*/
-    /*}*/
-    /*body > * {*/
-        /*font-size: 1rem;*/
-    /*}*/
-/*}*/
