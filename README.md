@@ -14,5 +14,9 @@ whether or not he or she should do the action in question.
 - CSS
 - Bootstrap
 
-### Disclaimer:
+## Planned Additions:
+- Adding Facebook Login
+- Adding ability to share decisions with your Facebook friends
+
+## Disclaimer:
 Use this app wisely. The Decision Maker and its creator are not responsible for your actions or the consequences of your actions.
