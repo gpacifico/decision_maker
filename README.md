@@ -5,6 +5,8 @@ This app will help people make hard choices by having them answer a series of ye
 certain number of points attached to it, and based on the number of points reached by the end, the app will tell the user 
 whether or not he or she should do the action in question.
 
+<a href='https://gpacifico.github.io/decision_maker/'>Link to Live Site. Make a Decision!</a>
+
 ## Built with:
 - JavaScript
 - jQuery
@@ -12,5 +14,9 @@ whether or not he or she should do the action in question.
 - CSS
 - Bootstrap
 
-### Disclaimer:
+## Planned Additions:
+- Adding Facebook Login
+- Adding ability to share decisions with your Facebook friends
+
+## Disclaimer:
 Use this app wisely. The Decision Maker and its creator are not responsible for your actions or the consequences of your actions.
