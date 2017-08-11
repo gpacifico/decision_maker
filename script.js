@@ -25,7 +25,6 @@ function question1() {
         $(this).addClass('not_exist');
         $('#yolo2').removeClass('answer');
         points += 25;
-        console.log('points2', points);
     });
 }
 
@@ -34,7 +33,6 @@ function question1b() {
         $(this).addClass('not_exist');
         $('#yolo2b').removeClass('answer');
         points -= 18;
-        console.log('points2', points);
     });
 }
 
@@ -43,7 +41,6 @@ function question2() {
         $(this).addClass('not_exist');
         $('#health2').removeClass('answer');
         points += 5;
-        console.log('points2', points);
     });
 }
 
@@ -61,7 +58,6 @@ function question3b() {
         $(this).addClass('not_exist');
         $('#money2b').removeClass('answer');
         points -= 3;
-        console.log('points2', points);
     });
 }
 
@@ -70,7 +66,6 @@ function question4() {
         $(this).addClass('not_exist');
         $('#power2').removeClass('answer');
         points += 4;
-        console.log('points2', points);
     });
 }
 
@@ -79,7 +74,6 @@ function question5() {
         $(this).addClass('not_exist');
         $('#jail2').removeClass('answer');
         points += 5;
-        console.log('points2', points);
     });
 }
 
@@ -88,7 +82,6 @@ function question6() {
         $(this).addClass('not_exist');
         $('#parents2').removeClass('answer');
         points += 2;
-        console.log('points2', points);
     });
 }
 
@@ -97,7 +90,6 @@ function question6b() {
         $(this).addClass('not_exist');
         $('#parents2b').removeClass('answer');
         points -= 2;
-        console.log('points2', points);
     });
 }
 
@@ -106,7 +98,6 @@ function question7() {
         $(this).addClass('not_exist');
         $('#friends2').removeClass('answer');
         points += 3;
-        console.log('points2', points);
     });
 }
 
@@ -115,7 +106,6 @@ function question7b() {
         $(this).addClass('not_exist');
         $('#friends2b').removeClass('answer');
         points -= 2;
-        console.log('points2', points);
     });
 }
 
@@ -124,7 +114,6 @@ function question8() {
         $(this).addClass('not_exist');
         $('#earth2').removeClass('answer');
         points += 6;
-        console.log('points2', points);
     });
 }
 
@@ -133,7 +122,6 @@ function question9() {
         $(this).addClass('not_exist');
         $('#naked2').removeClass('answer');
         points += 2;
-        console.log('points2', points);
     });
 }
 
@@ -142,7 +130,6 @@ function question10() {
         $(this).addClass('not_exist');
         $('#job2').removeClass('answer');
         points += 5;
-        console.log('points2', points);
     });
 }
 
@@ -151,7 +138,6 @@ function question10b() {
         $(this).addClass('not_exist');
         $('#job2b').removeClass('answer');
         points -= 6;
-        console.log('points2', points);
     });
 }
 
@@ -160,7 +146,6 @@ function question11() {
         $(this).addClass('not_exist');
         $('#fun2').removeClass('answer');
         points -= 5;
-        console.log('points2', points);
     });
 }
 
