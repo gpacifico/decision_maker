@@ -49,7 +49,6 @@ function question3() {
         $(this).addClass('not_exist');
         $('#money2').removeClass('answer');
         points += 3;
-        console.log('points2', points);
     });
 }
 
@@ -153,6 +152,8 @@ function choice() {
     $('#final_tally1').click(function () {
         $('.questions').addClass('not_exist');
         $('.disclaimer').addClass('disclaimer1');
+        $('div').removeClass('navbar-fixed-top');
+        $('body').addClass('body2');
         if (points < 25) {
             $('#final_tally_yes').removeClass('answer').append('<br><img src="images/decision_yes.png">');
         }
