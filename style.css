@@ -89,6 +89,8 @@ button.btn, .disclaimer, .container.header {
 
 button.btn {
     font-weight: bold;
+    font-size: 2em;
+    width: 8em;
 }
 
 .body2 {
