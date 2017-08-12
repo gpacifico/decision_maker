@@ -1,8 +1,11 @@
 body {
     font-size: 0;
-    background: url("images/question_mark2.png") repeat center;
-    background-size: 75%;
-    background-color: rgba(102, 0, 204, 0.8);
+    background-color: rgb(105,105,105);
+    padding-top: 165px;
+    position: relative;
+    min-height: 90%;
+    margin: 0;
+    padding-bottom: 6rem;
 }
 
 body > * {
@@ -22,7 +25,6 @@ div .btn {
 }
 
 h2:last-child {
-    color: rgba(255, 128, 0, 0.9);
     margin-left: 17%;
     margin-right: 15%;
 }
@@ -30,6 +32,7 @@ h2:last-child {
 div.instructions h2 {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 1.1em;
 }
 
 img {
@@ -56,23 +59,21 @@ h1 small, h2 {
     color: #fff;
 }
 
-h1 {
-    color: rgba(255, 128, 0, 1);
+h1, h3, button.btn {
+    color: rgb(128,128,128);
+}
+
+#final_tally_yes, #final_tally_no, h2:last-child {
+    color: #000;
 }
 
 h3 {
     margin-bottom: 0;
+    font-weight: 400;
 }
 
 html {
     height: 100%;
-}
-
-body {
-    position: relative;
-    min-height: 90%;
-    margin: 0;
-    padding-bottom: 6rem;
 }
 
 .disclaimer1 {
@@ -82,6 +83,20 @@ body {
     left: 0;
 }
 
-button.btn, .disclaimer {
-    background-color: rgba(255, 128, 0, 0.8);
+button.btn, .disclaimer, .container.header {
+    background-color: #000;
+}
+
+button.btn {
+    font-weight: bold;
+}
+
+.body2 {
+    padding-top: 0;
+}
+
+@media (min-width: 768px) {
+    div.container.header {
+        min-width: 950px;
+    }
 }
