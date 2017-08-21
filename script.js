@@ -2,7 +2,9 @@ var points = 0;
 
 $(document).ready(function () {
     question1();
+    question1no();
     question1b();
+    question1bno();
     question2();
     question3();
     question3b();
@@ -23,16 +25,38 @@ $(document).ready(function () {
 function question1() {
     $('#yolo1').click(function () {
         $(this).addClass('not_exist');
+        $('#yolo1no').addClass('not_exist');
         $('#yolo2').removeClass('answer');
         points += 25;
+        console.log('points2', points)
+    });
+}
+
+function question1no() {
+    $('#yolo1no').click(function () {
+        $(this).addClass('not_exist');
+        $('#yolo1').addClass('not_exist');
+        $('#yolo2').removeClass('answer');
+        points -= 25;
+        console.log('points2', points)
     });
 }
 
 function question1b() {
     $('#yolo1b').click(function () {
         $(this).addClass('not_exist');
+        $('#yolo1bno').addClass('not_exist');
         $('#yolo2b').removeClass('answer');
         points -= 18;
+    });
+}
+
+function question1bno() {
+    $('#yolo1bno').click(function () {
+        $(this).addClass('not_exist');
+        $('#yolo1b').addClass('not_exist');
+        $('#yolo2b').removeClass('answer');
+        points += 18;
     });
 }
 
@@ -155,10 +179,10 @@ function choice() {
         $('div').removeClass('navbar-fixed-top');
         $('body').addClass('body2');
         if (points < 25) {
-            $('#final_tally_yes').removeClass('answer').append('<br><img src="images/decision_yes.png">');
+            $('#final_tally_yes').removeClass('answer').append('<br><img id = "check_mark" src="images/decision_yes.png">');
         }
         else if (points >= 25) {
-            $('#final_tally_no').removeClass('answer').append('<br><img src="images/decision_no.png">') ;
+            $('#final_tally_no').removeClass('answer').append('<br><img id = "no_sign" src="images/decision_no.png">') ;
         }
     });
 }
