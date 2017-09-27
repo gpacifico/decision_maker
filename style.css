@@ -101,4 +101,14 @@ button.btn {
     div.container.header {
         min-width: 950px;
     }
+
+    #check_mark, #no_sign {
+        width: 45%;
+    }
+}
+
+@media (max-width:990px) {
+    button.yes {
+        margin-right: 30px;
+    }
 }
