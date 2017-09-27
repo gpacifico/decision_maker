@@ -50,7 +50,6 @@ function question1() {
         addStuff($('#yolo1no'));
         removeStuff($('#yolo2'));
         points += 25;
-        console.log('points2', points)
     });
 }
 
@@ -60,7 +59,6 @@ function question1no() {
         addStuff($('#yolo1'));
         removeStuff($('#yolo2'));
         points -= 15;
-        console.log('points2', points)
     });
 }
 
@@ -342,11 +340,9 @@ function choice() {
         $('body').addClass('body2');
         if (points < 25) {
             $('#final_tally_yes').removeClass('answer').append('<br><img id = "check_mark" src="images/decision_yes.png">');
-            console.log("POINTS: " + points);
         }
         else if (points >= 25) {
             $('#final_tally_no').removeClass('answer').append('<br><img id = "no_sign" src="images/decision_no.png">');
-            console.log("POINTS: " + points);
         }
     });
 }
